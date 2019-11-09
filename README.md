@@ -50,7 +50,7 @@ Margin Border Padding Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-Align is for vertical and justify is horizontal, unless using columns, then the opposite is true.
+Align is for vertical and justify is horizontal, unless using columns, then the opposite is true...
 
 5. Explain why git is valuable to a team of developers.
 
