@@ -1,0 +1,175 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Work below */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+html {/*parallax*/
+    width: 100%;
+    padding: 5px 20% 20px 20%;
+    display: flex;
+    background-image: url("https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+nav { /*
+    display:flex;
+    justify-content:space-around;
+    align-content:flex-end;
+        */
+    display: flex; /*Went with this nav option as it's "snazzier" though the bottom nav turned red instead of darkred*/
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 8%;
+    background-color: darkred;
+    overflow: hidden;
+}
+
+    nav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+header img {
+    margin-top: 10px;
+    
+    
+}
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.topContent{
+    width:800px;
+    margin: 0 auto;
+    border-bottom:2px dotted black;
+    padding-bottom: 15px;
+    margin-bottom:15px;
+   
+}
+.midContent{
+    width:800px;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-around;
+    align-content:space-around;
+    margin-bottom:10px;
+}
+    .midContent .textContainer {
+        width: 49%;
+        
+        border-bottom: 2px dotted black;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+.midContent .textContainer button{
+    margin:5px 0px 5px 0px;
+}
+
+.bottomContent{
+    margin:20px 0px 20px 0px;
+}
